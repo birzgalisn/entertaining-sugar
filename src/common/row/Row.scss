@@ -1,0 +1,22 @@
+.mp-report-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &-title {
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    font-family: var(--mp-font-family);
+    font-size: var(--mp-font-size);
+    line-height: var(--mp-line-height);
+    color: var(--mp-text-primary);
+  }
+
+  &-content {
+    width: 100%;
+    max-width: 23.75rem;
+    display: flex;
+    flex-direction: row;
+  }
+}

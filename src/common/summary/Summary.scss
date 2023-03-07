@@ -1,0 +1,23 @@
+.mp-summary {
+  // width: 8.75rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: var(--mp-font-family);
+  align-items: center;
+
+  &-title {
+    color: var(--mp-text-primary);
+    font-family: inherit;
+    font-size: 1.875rem;
+    line-height: 2.188rem;
+  }
+
+  &-desc {
+    color: var(--mp-text-secondary);
+    font-family: inherit;
+    font-size: var(--mp-font-size);
+    line-height: var(--mp-line-height);
+  }
+}
