@@ -88,19 +88,11 @@ const Calendar: React.FC<ICalendar> = ({
 
   return (
     <div className="mp-calendar">
-      <label className="mp-calendar-label" htmlFor={label}>
-        {label}
-      </label>
+      <p className="mp-calendar-label">{label}</p>
       <RadixPopover
         trigger={
           <div className="mp-calendar-input-wrapper">
-            <input
-              className="mp-calendar-input"
-              id={label}
-              type="text"
-              value={showPickedDate}
-              disabled
-            />
+            <p className="mp-calendar-input">{showPickedDate}</p>
             <div className="mp-calendar-icon-wrapper">
               <img src={calendar} alt="Calendar icon" />
             </div>

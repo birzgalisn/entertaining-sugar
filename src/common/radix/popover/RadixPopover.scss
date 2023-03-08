@@ -34,6 +34,10 @@ input {
   &[data-state="open"][data-side="left"] {
     animation-name: slideRightAndFade;
   }
+
+  &-trigger {
+    width: 100%;
+  }
 }
 
 @keyframes slideUpAndFade {

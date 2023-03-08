@@ -12,7 +12,9 @@ const RadixPopover: React.FC<IRadixPopover> = ({
 }) => {
   return (
     <Popover.Root {...props}>
-      <Popover.Trigger>{trigger}</Popover.Trigger>
+      <Popover.Trigger className="mp-radix-popover-trigger">
+        {trigger}
+      </Popover.Trigger>
       <Popover.Portal>
         <Popover.Content className="mp-radix-popover" sideOffset={5}>
           {children}
