@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.15.1",
-    "@radix-ui/react-label": "^2.0.0",
     "@radix-ui/react-popover": "^1.0.4",
     "@radix-ui/react-select": "^1.2.0",
     "@reduxjs/toolkit": "^1.9.3",
