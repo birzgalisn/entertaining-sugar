@@ -73,7 +73,7 @@ button {
     user-select: none;
     border-radius: var(--mp-border-radius);
 
-    & [data-disabled] {
+    &[data-disabled] {
       color: var(--mp-text-secondary);
       cursor: not-allowed;
       pointer-events: none;
